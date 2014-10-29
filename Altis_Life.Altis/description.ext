@@ -185,14 +185,14 @@ class CfgNotifications
 	class dog_growl
 	{
 		name = "dog_growl";
-		sound[] = {"sounds\dog_growl.ogg", 1, 1};
+		sound[] = {"sounds\dog_growl.ogg"};
 		titles[] = {};
 		
 	};
 	class dog_ruff
 	{
 		name = "dog_ruff";
-		sound[] = {"sounds\dog_ruff.ogg", 1, 1};
+		sound[] = {"sounds\dog_ruff.ogg"};
 		titles[] = {};
 		
 	};
@@ -200,7 +200,7 @@ class CfgNotifications
 	class whistle
 	{
 		name = "whistle";
-		sound[] = {"sounds\whistle.ogg", 1, 1};
+		sound[] = {"sounds\whistle.ogg"};
 		titles[] = {};
 		
 	};
@@ -208,7 +208,7 @@ class CfgNotifications
 	class dog_close
 	{
 		name = "dog_close";
-		sound[] = {"sounds\dog_close.ogg", 1, 1};
+		sound[] = {"sounds\dog_close.ogg"};
 		titles[] = {};
 		
 	};
@@ -216,7 +216,7 @@ class CfgNotifications
 	class dog_one
 	{
 		name = "dog_one";
-		sound[] = {"sounds\dog_one.ogg", 1, 1};
+		sound[] = {"sounds\dog_one.ogg"};
 		titles[] = {};
 		
 	};
