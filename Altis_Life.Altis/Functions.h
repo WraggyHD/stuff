@@ -117,6 +117,7 @@ class Life_Client_Core
 		class robShops {};
 		class surrender {};
 		class pulloutActionCiv {};
+		class robATM {};
 	};
 	
 	class Housing
