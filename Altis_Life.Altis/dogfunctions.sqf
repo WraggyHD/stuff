@@ -75,7 +75,7 @@ _dogWhistle =
 				_unit1 setvariable ["order","dead"];
 				_unit setvariable ["action","false"];
 				_unit1 setvariable ["step","go"];
-				deleteVehicle _dog
+				deleteVehicle _dog;
             };
 			
 		shot_at =
