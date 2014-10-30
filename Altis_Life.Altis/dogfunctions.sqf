@@ -102,6 +102,7 @@ _dogWhistle =
             "killed",
 				{ 
 				    _script = [(_this select 0)] call killed;
+					
 				}
             ];
 
@@ -367,6 +368,7 @@ _actions =
 		if ((_unit getvariable "dead") == "active") then
 			{
 				_unit setvariable ["order","nil"];
+			    _script = [(_this select 0)] call killed;
 			};		
 		waituntil {((_unit getvariable "step") == "go")};
 			
