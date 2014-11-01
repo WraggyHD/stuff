@@ -117,6 +117,7 @@ class Life_Client_Core
 		class robShops {};
 		class surrender {};
 		class pulloutActionCiv {};
+		class removeWeaponAction {};
 	};
 	
 	class Housing
@@ -279,6 +280,7 @@ class Life_Client_Core
 		class vehicleWeight {};
 		class deviceMine {};
 		class addVehicle2Chain {};
+		class removeWeapons {};
 	};
 	
 	class Cop
