@@ -231,6 +231,7 @@ class Life_Client_Core
 		class loadGear {};
 		class stripDownPlayer {};
 		class pullOutVehCiv {};
+		class autoSave {};
 	};
 	
 	class Network

@@ -43,6 +43,7 @@ waitUntil {life_session_completed};
 
 //diag_log "::Life Client:: Group Base Execution";
 [] spawn life_fnc_escInterupt;
+[] spawn life_fnc_autoSave;
 
 switch (playerSide) do
 {
