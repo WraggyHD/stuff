@@ -308,6 +308,7 @@ class Life_Client_Core
 		class copLoadout {};
 		class ticketPaid {};
 		class copUniform {};
+		class tazerFix {};
 	};
 	
 	class Gangs
