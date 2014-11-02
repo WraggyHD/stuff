@@ -15,7 +15,7 @@ switch (playerSide) do
 		life_actions = life_actions + [player addAction["Rob Person",life_fnc_robAction,"",0,false,false,"",'
 		!isNull cursorTarget && player distance cursorTarget < 3.5 && isPlayer cursorTarget && animationState cursorTarget in ["Incapacitated","amovpercmstpsnonwnondnon_amovpercmstpssurwnondnon"] && !(cursorTarget getVariable["robbed",FALSE]) ']];
 		//Kidnapping SURRENDER
-        life_actions = [player addAction["<t color='#00FF00'>Start Kidnapping</t>",life_fnc_restrainActionCiv,cursorTarget,9999999,false,false,"",'
+        life_actions = [player addAction["<t color='#00FF00'>Start Kidnapping</t>",life_fnc_restrainAction,cursorTarget,9999999,false,false,"",'
         !isNull cursorTarget && player distance cursorTarget < 5 && isPlayer cursorTarget && animationState cursorTarget == "amovpercmstpsnonwnondnon_amovpercmstpssurwnondnon" && !(cursorTarget getVariable "Escorting") && !(cursorTarget getVariable "restrained") && speed cursorTarget < 1 ']];
 	};
 };
