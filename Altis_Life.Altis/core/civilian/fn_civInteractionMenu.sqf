@@ -26,7 +26,7 @@ _Btn7 = _display displayCtrl Btn7;
 life_pInact_curTarget = _curTarget;
 
 //Set Unrestrain Button
-_Btn1 ctrlSetText localize "STR_pInAct_Unrestrain";
+_Btn1 ctrlSetText localize "STR_pInAct_UnrestrainCiv";
 _Btn1 buttonSetAction "[life_pInact_curTarget] call life_fnc_unrestrain; closeDialog 0;";
 
 //Set Escort Button
@@ -38,7 +38,7 @@ if((_curTarget getVariable["Escorting",false])) then {
     _Btn4 buttonSetAction "[life_pInact_curTarget] call life_fnc_escortAction; closeDialog 0;";
 };
 //set put in vehicle
-_Btn7 ctrlSetText localize "STR_pInAct_PutInCar";
+_Btn7 ctrlSetText localize "STR_pInAct_PutInCarCiv";
 _Btn7 buttonSetAction "[life_pInact_curTarget] call life_fnc_putInCar;";
 //impede as funçoes de policiais
 if(playerSide == civilian) then {

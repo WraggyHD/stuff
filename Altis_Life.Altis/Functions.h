@@ -118,6 +118,9 @@ class Life_Client_Core
 		class surrender {};
 		class pulloutActionCiv {};
 		class removeWeaponAction {};
+		class UnrestrainCiv {};
+		class putInCarCiv {};
+		class restrainActionCiv {};
 	};
 	
 	class Housing
@@ -264,6 +267,7 @@ class Life_Client_Core
 		class demoChargeTimer {};
 		class civLoadout {};
 		class civInteractionMenu {};
+		class removeWeapons {};
 	};
 	
 	class Vehicle
@@ -280,7 +284,6 @@ class Life_Client_Core
 		class vehicleWeight {};
 		class deviceMine {};
 		class addVehicle2Chain {};
-		class removeWeapons {};
 	};
 	
 	class Cop
