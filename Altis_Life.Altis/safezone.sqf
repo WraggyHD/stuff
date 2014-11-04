@@ -14,7 +14,32 @@ _inArea = false;
 
 switch (playerSide) do
 {
-	case !west:
+	case west:
+	{
+		while {true} do
+		{
+			if (alive player) then
+			{	
+				if (((_zone1 distance player < _dis1) || (_zone2 distance player < _dis2) || (_zone3 distance player < _dis3) || (_zone4 distance player < _dis4) || (_zone5 distance player < _dis5)) && (!_inArea)) then 
+				{     
+					_inArea = true;
+					hint "You have entered a safezone!";
+					player allowDamage false;
+				};
+
+				if (((_zone1 distance player > _dis1) && (_zone2 distance player > _dis2) && (_zone3 distance player > _dis3) && (_zone4 distance player > _dis4) &&(_zone5 distance player > _dis5)) && (_inArea)) then 
+				{    
+					_inArea = false;
+					hint "You have left a safezone!";
+					player allowDamage true;
+				};
+     
+			};
+		};
+	
+	};
+	
+	case civilian:
 	{
 		while {true} do
 		{
@@ -40,4 +65,57 @@ switch (playerSide) do
 		};
 	
 	};
+	
+	case independent:
+	{
+		while {true} do
+		{
+			if (alive player) then
+			{	
+				if (((_zone1 distance player < _dis1) || (_zone2 distance player < _dis2) || (_zone3 distance player < _dis3) || (_zone4 distance player < _dis4) || (_zone5 distance player < _dis5)) && (!_inArea)) then 
+				{     
+					_eh1 = player addEventHandler ["fired", {deleteVehicle (_this select 6);}];
+					_inArea = true;
+					hint "You have entered a safezone!";
+					player allowDamage false;
+				};
+
+				if (((_zone1 distance player > _dis1) && (_zone2 distance player > _dis2) && (_zone3 distance player > _dis3) && (_zone4 distance player > _dis4) &&(_zone5 distance player > _dis5)) && (_inArea)) then 
+				{    
+					player removeEventHandler ["fired", _eh1];
+					_inArea = false;
+					hint "You have left a safezone!";
+					player allowDamage true;
+				};
+     
+			};
+		};
+	
+	};
+	
+	case east:
+	{
+		while {true} do
+		{
+			if (alive player) then
+			{	
+				if (((_zone1 distance player < _dis1) || (_zone2 distance player < _dis2) || (_zone3 distance player < _dis3) || (_zone4 distance player < _dis4) || (_zone5 distance player < _dis5)) && (!_inArea)) then 
+				{     
+					_inArea = true;
+					hint "You have left a safezone!";
+					player allowDamage false;
+				};
+
+				if (((_zone1 distance player > _dis1) && (_zone2 distance player > _dis2) && (_zone3 distance player > _dis3) && (_zone4 distance player > _dis4) &&(_zone5 distance player > _dis5)) && (_inArea)) then 
+				{    
+					_inArea = false;
+					hint "You have left a safezone!";
+					player allowDamage true;
+				};
+     
+			};
+		};
+	
+	};
+	sleep 3;
 };
