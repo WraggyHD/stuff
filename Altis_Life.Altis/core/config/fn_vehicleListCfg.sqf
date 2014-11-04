@@ -121,7 +121,7 @@ switch (_shop) do
 	{
 		_return =
 		[
-			["C_Heli_Light_01_civil_F2,250000],
+			["C_Heli_Light_01_civil_F2",250000],
 			["B_Heli_Light_01_F",333000],
 			["O_Heli_Light_02_unarmed_F",2500000],
 			["I_Heli_light_03_unarmed_F",4000000],
