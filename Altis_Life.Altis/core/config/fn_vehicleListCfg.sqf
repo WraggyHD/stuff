@@ -146,7 +146,7 @@ switch (_shop) do
 			["B_Slingload_01_Ammo_F",7500000],
 			["B_Slingload_01_Fuel_F",6000000],
 			["B_Slingload_01_Repair_F",5500000],
-			["B_Slingload_01_Medevac_F",5250000],
+			["B_Slingload_01_Medevac_F",5250000]
 		];
 	};
 	
