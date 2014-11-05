@@ -50,6 +50,11 @@ switch (_className) do
 	case "I_Heli_Transport_02_F": {650};
 	case "I_Heli_light_03_unarmed_F": {400};
 	case "C_Rubberboat": {45};
+	case "B_Slingload_01_Cargo_F": {2500};
+	case "B_Slingload_01_Ammo_F": {1500};
+	case "B_Slingload_01_Fuel_F": {250};
+	case "B_Slingload_01_Repair_F": {750};
+	case "B_Slingload_01_Medevac_F": {750};
 	case "O_Boat_Armed_01_hmg_F": {175};
 	case "B_Boat_Armed_01_minigun_F": {175};
 	case "I_Boat_Armed_01_minigun_F": {175};

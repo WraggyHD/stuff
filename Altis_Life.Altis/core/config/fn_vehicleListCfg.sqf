@@ -138,6 +138,18 @@ switch (_shop) do
 		];
 	};
 	
+	case "civ_container":
+	{
+		_return =
+		[
+			["B_Slingload_01_Cargo_F",15000000],
+			["B_Slingload_01_Ammo_F",7500000],
+			["B_Slingload_01_Fuel_F",6000000],
+			["B_Slingload_01_Repair_F",5500000],
+			["B_Slingload_01_Medevac_F",5250000],
+		];
+	};
+	
 	case "cop_air":
 	{
 		_return pushBack
