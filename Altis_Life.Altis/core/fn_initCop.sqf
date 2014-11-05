@@ -30,5 +30,6 @@ switch (__GETC__(life_coplevel)) do
 
 [] call life_fnc_spawnMenu;
 [] call life_fnc_copUniform;
+[] call life_fnc_RemoveLoot;
 waitUntil{!isNull (findDisplay 38500)}; //Wait for the spawn selection to be open.
 waitUntil{isNull (findDisplay 38500)}; //Wait for the spawn selection to be done.
