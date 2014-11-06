@@ -18,4 +18,5 @@ if(_all in _vlist) then {
 clearWeaponCargoGlobal _vehicle;
 clearMagazineCargoGlobal _vehicle;
 clearItemCargoGlobal _vehicle;
+clearBackpackCargoGlobal _vehicle;
 };
