@@ -27,3 +27,4 @@
 #include "veh_repaint.hpp"
 #include "compensate.hpp"
 #include "market.hpp"
+#include "wantedadd2.hpp"
