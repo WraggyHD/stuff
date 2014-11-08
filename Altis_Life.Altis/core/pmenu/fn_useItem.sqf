@@ -85,12 +85,9 @@ switch (true) do
 	case (_item == "pickaxe"):
 	{
 		[] spawn life_fnc_pickAxeUse;
-		
 	};
 	
 	case (_item == "marijuana"):
-	{
-    if(([false,_item,1] call life_fnc_handleInv)) then
     {
         [] spawn life_fnc_weed;
     };
