@@ -372,7 +372,6 @@ class Life_Client_Core
 		class defuseKit {};
 		class storageBox {};
 		class weed {};
-
 	};
 	
 	class Dialog_Controls

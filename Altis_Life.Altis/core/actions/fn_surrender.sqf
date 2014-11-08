@@ -6,6 +6,13 @@
 
 player setVariable ["surrender", true, true]; //Set surrender to true
 
+if("ItemRadio" in assignedItems cursorTarget) then {
+	cursorTarget removeweapon "ItemRadio";
+	hint "Your cellphone was placed on the ground.";
+	_defenceplace1 = "Item_ItemRadio" createVehicle (player modelToWorld[0,0,0]);}
+	else { hint "You have no cellphone!"};
+};
+
 while { player getVariable ["surrender", false] }  do { 
 	player playMove "amovpercmstpsnonwnondnon_amovpercmstpssurwnondnon"; //Animation in
 	
