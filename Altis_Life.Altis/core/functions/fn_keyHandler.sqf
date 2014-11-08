@@ -122,7 +122,13 @@ switch (_code) do
 					player setVariable ["surrender", false, true];
 				} else
 				{
-					[] spawn life_fnc_surrender;
+				[] spawn life_fnc_surrender;
+					if("ItemRadio" in assignedItems cursorTarget) then {
+						cursorTarget removeweapon "ItemRadio";
+						hint "Your cellphone was placed on the ground.";
+						_defenceplace1 = "Item_ItemRadio" createVehicle (player modelToWorld[0,0,0]);}
+						else { hint "You have no cellphone!"};
+					};
 				};
 			};
 		};
@@ -142,7 +148,7 @@ switch (_code) do
 			}
 				else
 			{
-				if((cursorTarget isKindOf "Car" OR cursorTarget isKindOf "Air" OR cursorTarget isKindOf "Ship" OR cursorTarget isKindOf "House_F") && player distance cursorTarget < 7 && vehicle player == player && alive cursorTarget) then
+				if(player distance cursorTarget < 7 && vehicle player == player && alive cursorTarget) then
 				{
 					if(cursorTarget in life_vehicles OR {!(cursorTarget getVariable ["locked",true])}) then
 					{
