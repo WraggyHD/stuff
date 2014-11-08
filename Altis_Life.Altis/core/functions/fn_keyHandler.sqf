@@ -123,12 +123,6 @@ switch (_code) do
 				} else
 				{
 					[] spawn life_fnc_surrender;
-					if("ItemRadio" in assignedItems cursorTarget) then {
-						cursorTarget removeweapon "ItemRadio";
-						hint "Your cellphone was placed on the ground.";
-						_defenceplace1 = "Item_ItemRadio" createVehicle (player modelToWorld[0,0,0]);}
-						else { hint "You have no cellphone!"};
-					};
 				};
 			};
 		};
