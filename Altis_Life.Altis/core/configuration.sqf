@@ -7,6 +7,7 @@
 ****** Backend Variables *****
 *****************************
 */
+life_drink = 0;
 life_query_time = time;
 life_action_delay = time;
 life_trunk_vehicle = Objnull;
@@ -115,6 +116,18 @@ __CONST__(life_vShop_rentalOnly,life_vShop_rentalOnly); //These vehicles can nev
 
 life_inv_items = 
 [
+	"life_inv_cornmeal",
+	"life_inv_beerp",
+	"life_inv_whiskey",
+	"life_inv_rye",
+	"life_inv_hops",
+	"life_inv_yeast",
+	"life_inv_bottles",
+	"life_inv_bottledshine",
+	"life_inv_bottledbeer",
+	"life_inv_bottledwhiskey",
+	"life_inv_moonshine",
+	"life_inv_mash",
 	"life_inv_oilu",
 	"life_inv_oilp",
 	"life_inv_heroinu",

@@ -16,6 +16,17 @@ switch (_mode) do
 	{
 		switch (_type) do
 		{
+			case "liquor": {_var = "license_civ_liquor"};
+			case "beer": {_var = "license_civ_liquor"};
+			case "stiller": {_var = "license_civ_stiller"};
+			case "whiskey": {_var = "license_civ_stiller"};
+			case "moonshine": {_var = "license_civ_stiller"};
+			case "mash": {_var = "license_civ_stiller"};
+			case "bottledshine": {_var = "license_civ_bottler"};
+			case "bottledbeer": {_var = "license_civ_bottler"};
+			case "bottledwhiskey": {_var = "license_civ_bottler"};
+			case "bottler": {_var = "license_civ_bottler"};
+			case "glassbottle": {_var = "license_civ_bottler"};
 			case "driver": {_var = "license_civ_driver"}; //Drivers License cost
 			case "boat": {_var = "license_civ_boat"}; //Boating license cost
 			case "pilot": {_var = "license_civ_air"}; //Pilot/air license cost
