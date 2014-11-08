@@ -122,7 +122,7 @@ switch (_code) do
 					player setVariable ["surrender", false, true];
 				} else
 				{
-					[] spawn life_fnc_surrender;
+				[] spawn life_fnc_surrender;
 				};
 			};
 		};
