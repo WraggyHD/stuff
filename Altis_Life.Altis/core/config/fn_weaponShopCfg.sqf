@@ -29,6 +29,7 @@ switch(_shop) do
 			{
 				["Altis Cop Shop",
 					[
+						["arifle_sdar_F","Taser Rifle",20000],
 						["hgun_P07_snds_F","Stun Pistol",2000],
 						["hgun_P07_F",nil,7500],
 						["HandGrenade_Stone","Flashbang",1700],
@@ -56,7 +57,7 @@ switch(_shop) do
 						["optic_SOS",nil,12500],
 						["optic_tws",nil,15000],
 						["optic_tws_mg",nil,14000],
-						["ItemRadio","Cell Phone",500]
+						["20Rnd_556x45_UW_mag","Taser Rifle Magazine",125]
 					]
 				];
 			};
@@ -77,8 +78,7 @@ switch(_shop) do
 						["FirstAidKit",nil,150],
 						["Medikit",nil,500],
 						["NVGoggles",nil,1200],
-						["B_FieldPack_ocamo",nil,3000],
-						["ItemRadio","Cell Phone",500]
+						["B_FieldPack_ocamo",nil,3000]
 					]
 				];
 			};
@@ -225,14 +225,7 @@ switch(_shop) do
 						["20Rnd_556x45_UW_mag",nil,125],
 						["30Rnd_556x45_Stanag",nil,300],
 						["10Rnd_762x51_Mag",nil,500],
-						["30Rnd_65x39_caseless_green",nil,275],
-						["ItemRadio","Cell Phone",500],
-						["Binocular",nil,150],
-						["ItemGPS",nil,100],
-						["ToolKit",nil,250],
-						["FirstAidKit",nil,150],
-						["NVGoggles",nil,2000],
-						["Medikit",nil,500]
+						["30Rnd_65x39_caseless_green",nil,275]
 					]
 				];
 			};
@@ -342,14 +335,7 @@ switch(_shop) do
 						["20Rnd_556x45_UW_mag",nil,125],
 						["30Rnd_556x45_Stanag",nil,300],
 						["10Rnd_762x51_Mag",nil,500],
-						["30Rnd_65x39_caseless_green",nil,275],
-						["ItemRadio","Cell Phone",500],
-						["Binocular",nil,150],
-						["ItemGPS",nil,100],
-						["ToolKit",nil,250],
-						["FirstAidKit",nil,150],
-						["NVGoggles",nil,2000],
-						["Medikit",nil,500]
+						["30Rnd_65x39_caseless_green",nil,275]
 					]
 				];
 			};
@@ -368,8 +354,7 @@ switch(_shop) do
 				["Chemlight_red",nil,300],
 				["Chemlight_yellow",nil,300],
 				["Chemlight_green",nil,300],
-				["Chemlight_blue",nil,300],
-				["ItemRadio","Cell Phone",500]
+				["Chemlight_blue",nil,300]
 			]
 		];
 	};

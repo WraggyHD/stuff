@@ -18,8 +18,6 @@ player addItem "ItemCompass";
 player assignItem "ItemCompass";
 player addItem "ItemWatch";
 player assignItem "ItemWatch";
-player addItem "ItemRadio";
-player assignItem "ItemRadio";
 
 [[player,0,"textures\medic_uniform.jpg"],"life_fnc_setTexture",true,false] spawn life_fnc_MP;
 
