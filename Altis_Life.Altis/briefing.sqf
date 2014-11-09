@@ -154,6 +154,13 @@ player createDiarySubject ["controls","Controls"];
 				2. Selling or Drinking Beer and Whiskey is Legal.<br/>
 				4. Being in possession of / drinking Moonshine is illegal.<br/>
 				5. Drinking in public is also Illegal.<br/><br/>
+				
+				Recipes .<br/><br/>
+				
+				Yeast + Rye In Brewer= Whiskey --> Whiskey + Bottles = Bottle Whiskey to sell.<br/>
+				Yeast + Hops In Distiller = Beer --> Beer + Bottles = Bottled Beer to sell.<br/>
+				Yeast + Mash (Water + Cornmeal) In Distiller = Moonshine --> Moonshine + Bottles = Bottled Moonshine to sell.<br/>
+				
 				"
 		]
 	];
