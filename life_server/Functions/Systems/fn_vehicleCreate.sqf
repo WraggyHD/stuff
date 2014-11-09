@@ -20,6 +20,7 @@ _type = switch(true) do
 	case (_vehicle isKindOf "Car"): {"Car"};
 	case (_vehicle isKindOf "Air"): {"Air"};
 	case (_vehicle isKindOf "Ship"): {"Ship"};
+	default {"Air"};
 };
 
 _side = switch(_side) do
