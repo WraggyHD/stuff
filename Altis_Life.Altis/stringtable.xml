@@ -494,12 +494,6 @@
 			<Italian>Msg medici</Italian>
 			<Portuguese>Chamar SAMU</Portuguese>
 		</Key>
-		<Key ID="STR_Item_Cannabis">
-			<Original>Pot Plants</Original>
-			<English>Pot Plants</English>
-			<German>Marihuana-Pflanzen</German>
-			<French>Plants de marihuana</French>
-		</Key>
 		<Key ID="STR_Item_Rye">
 			<Original>Rye Plants</Original>
 		</Key>
@@ -2901,6 +2895,30 @@
 			<Italian>Il veicolo non contiene così tanti oggetti.</Italian>
 			<Portuguese>A mala não tem toda essa contidade de items.</Portuguese>
 		</Key>
+		<Key ID="STR_MISC_StPubIntox">
+			<Original>%1 has passed out drunk in public!</Original>
+			<English>%1 has passed out drunk in public!</English>
+			<German>%1 hat sich betrunken im öffentlichen bestanden!</German>
+		</Key>
+		<Key ID="STR_MISC_AlreadyDrinking">
+			<Original>You are already drinking some booze</Original>
+			<English>You are already drinking some booze</English>
+			<German>Du bist schon etwas trinken Alkohol</German>
+		</Key>
+		<Key ID="STR_MISC_WestIndNoNo">
+			<Original>No drinking on duty</Original>
+			<English>No drinking on duty</English>
+			<German>Kein Trinkwasser im Dienst</German>
+			<French>Pas boire pendant le travail</French>
+		</Key>
+		<Key ID="STR_MISC_DrunkBlackOut">
+			<Original>You have passed out</Original>
+			<English>You have passed out</English>
+		</Key>
+		<Key ID="STR_MISC_DrunkBlackOut1">
+			<Original>What the hell happened to me??</Original>
+			<English>What the hell happened to me??</English>
+		</Key>
 	</Package>
 	<Package name="Housing_Strings">
 		<Key ID="STR_House_ContainerError">
@@ -4202,6 +4220,18 @@
 			<Italian>Raccogli Cocaina</Italian>
 			<Portuguese>Colher Cocaina</Portuguese>
 		</Key>
+		<Key ID="STR_Gather_Rye">
+			<Original>Gather Rye</Original>
+			<English>Gather Rye</English>
+		</Key>
+		<Key ID="STR_Gather_Hops">
+			<Original>Pick Hops</Original>
+			<English>Pick Hops</English>
+		</Key>
+		<Key ID="STR_Gather_Yeast">
+			<Original>Gather Yeast</Original>
+			<English>Gather Yeast</English>
+		</Key>
 	</Package>
 	<Package name="Medical_Strings">
 		<Key ID="STR_Medic_Online">
@@ -4569,6 +4599,14 @@
 			<French>Déposer pour le gang</French>
 			<Italian>Deposita alla Gang</Italian>
 			<Portuguese>Depositar para a Gangue</Portuguese>
+		</Key>
+		<Key ID="STR_pInAct_Breathalyzer">
+			<Original>Give Breathalyzer Test</Original>
+			<English>Give Breathalyzer Test</English>
+			<German>Geben Alkoholtest</German>
+			<French>Donnez alcootest test</French>
+			<Italian>Dare Etilometro test</Italian>
+			<Portuguese>Dê bafômetro Teste</Portuguese>
 		</Key>
 	</Package>
 		<Package name="Vehicle_Interaction">
@@ -5194,30 +5232,6 @@
 			<Italian>Hai ricevuto uno stipendio di €%1</Italian>
 			<Portuguese>Você recebeu seu pagamento de R$%1</Portuguese>
 		</Key>
-		<Key ID="STR_MISC_StPubIntox">
-			<Original>%1 has passed out drunk in public!</Original>
-			<English>%1 has passed out drunk in public!</English>
-			<German>%1 hat sich betrunken im öffentlichen bestanden!</German>
-		</Key>
-		<Key ID="STR_MISC_AlreadyDrinking">
-			<Original>You are already drinking some booze</Original>
-			<English>You are already drinking some booze</English>
-			<German>Du bist schon etwas trinken Alkohol</German>
-		</Key>
-		<Key ID="STR_MISC_WestIndNoNo">
-			<Original>No drinking on duty</Original>
-			<English>No drinking on duty</English>
-			<German>Kein Trinkwasser im Dienst</German>
-			<French>Pas boire pendant le travail</French>
-		</Key>
-		<Key ID="STR_MISC_DrunkBlackOut">
-			<Original>You have passed out</Original>
-			<English>You have passed out</English>
-		</Key>
-		<Key ID="STR_MISC_DrunkBlackOut1">
-			<Original>What the hell happened to me??</Original>
-			<English>What the hell happened to me??</English>
-		</Key>
 	</Package>
 	<Package name="Player_Actions">
 		<Key ID="STR_pAct_DropFishingNet">
@@ -5235,18 +5249,6 @@
 			<French>Rob Person</French>
 			<Italian>Rob Person</Italian>		
 			<Portuguese>Roubar Jogador</Portuguese>
-		</Key>
-		               <Key ID="STR_Gather_Rye">
-			<Original>Gather Rye</Original>
-			<English>Gather Rye</English>
-		</Key>
-		<Key ID="STR_Gather_Hops">
-			<Original>Pick Hops</Original>
-			<English>Pick Hops</English>
-		</Key>
-		<Key ID="STR_Gather_Yeast">
-			<Original>Gather Yeast</Original>
-			<English>Gather Yeast</English>
 		</Key>
 	</Package>
 </Project>
