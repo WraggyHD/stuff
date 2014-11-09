@@ -2350,7 +2350,7 @@ class Mission
 				class Item20
 				{
 					position[]={14678.168,17.91,16770.887};
-					azimut=-188.1707;
+					azimut=-188.17101;
 					special="NONE";
 					id=117;
 					side="CIV";
@@ -11493,9 +11493,9 @@ class Mission
 		class Item235
 		{
 			position[]={14696.649,17.91,16745.135};
-			name="civ_air_1_1";
+			name="civ_air_1";
 			type="Empty";
-			angle=-51.978672;
+			angle=-51.978699;
 		};
 		class Item236
 		{

@@ -25,6 +25,7 @@ switch(_type) do
 	case "211": {_type = ["Robbery",1000]};
 	case "207": {_type = ["Kidnapping",3500]};
 	case "207A": {_type = ["Attempted Kidnapping",2000]};
+	case "390": {_type = ["Public Intoxication",15000]};
 	case "487": {_type = ["Grand Theft",1500]};
 	case "488": {_type = ["Petty Theft",700]};
 	case "480": {_type = ["Hit and run",1300]};
