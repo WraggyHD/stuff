@@ -34,7 +34,7 @@ player createDiarySubject ["controls","Controls"];
 		[
 			"Custom Change Log",
 				"
-					This section is meant for people doing their own edits to the mission, DO NOT REMOVE THE ABOVE.
+					Please check out ExplosiveDart.co.uk For updates !
 				"
 		]
 	];
@@ -140,6 +140,20 @@ player createDiarySubject ["controls","Controls"];
 				5. Stealing a vehicle just to crash it or otherwise destroy it.<br/>
 				6. Purchasing multiple vehicles for the purpose of doing any of the above.<br/>
 				7. The only reason for shooting at a vehicle would be to disable it and/or fire warning shots in a role-play scenario.You are not to deliberately destroy enemies vehicles.<br/><br/>
+				"
+		]
+	];
+	
+		player createDiaryRecord ["serverrules",
+		[
+			"Alcohol", 
+				"
+				These are laws on Alcohol.<br/><br/>
+				
+				1. The limit is 0.07 BAC.<br/>
+				2. Selling or Drinking Beer and Whiskey is Legal.<br/>
+				4. Being in possession of / drinking Moonshine is illegal.<br/>
+				5. Drinking in public is also Illegal.<br/><br/>
 				"
 		]
 	];
