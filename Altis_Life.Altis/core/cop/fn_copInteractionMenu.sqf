@@ -97,7 +97,7 @@ _Btn7 buttonSetAction "[life_pInact_curTarget] call life_fnc_putInCar;";
 
 //actually the Breathalyser button
 _Btn8 ctrlSetText localize "STR_pInAct_Breathalyzer";
-_Btn8 buttonSetAction "[life_pInact_curTarget] call life_fnc_breathalyzer;" closeDialog 0";
+_Btn8 buttonSetAction "[[player],""life_fnc_breathalyzer"",life_pInact_curTarget,FALSE] spawn life_fnc_MP;closeDialog 0";
 
 //Check that you are near a place to jail them.
 if(!((player distance (getMarkerPos "police_hq_1") < 30) OR  (player distance (getMarkerPos "police_hq_2") < 30) OR (player distance (getMarkerPos "cop_spawn_3") < 30) OR (player distance (getMarkerPos "cop_spawn_5") < 30))) then 
