@@ -30,7 +30,6 @@ _itemInfo = switch (_type) do
 	case "mash": {["water","mash",100,"Mixing Grain Mash",true,"cornmeal"]};
 	case "whiskey": {["yeast","whiskey",1000,"Fermenting Whiskey",true,"rye"]};
 	case "beer": {["yeast","beerp",1500,"Brewing Beer",true,"hops"]};
-	case "moonshine": {["yeast","moonshine",250,"Moonshining",true,"mash"]};
 	case "bottledshine": {["moonshine","bottledshine",500,"Bootle Moonshine",true,"bottles"]};
 	case "bottledbeer": {["beerp","bottledbeer",500,"Bottle Beer",true,"bottles"]};
 	case "bottledwhiskey": {["whiskey","bottledwhiskey",500,"Bottle Whiskey",true,"bottles"]};
