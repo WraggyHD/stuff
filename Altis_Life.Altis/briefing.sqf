@@ -321,10 +321,10 @@ player createDiarySubject ["controls","Controls"];
 				
 				Inside major cities:<br/>
 				Small roads: 50km/h<br/>
-				Main roads: 65km/h<br/>
+				Main roads: 70km/h<br/>
 				Outside major cities:<br/>
-				Small roads: 80km/h<br/>
-				Main roads: 110km/h<br/><br/>
+				Small roads: 120km/h<br/>
+				Main roads: 160km/h<br/><br/>
 				"
 		]
 	];
@@ -556,7 +556,7 @@ player createDiarySubject ["controls","Controls"];
 				F: Cop Siren (if cop)<br/>
 				T: Vehicle Trunk<br/>
 				Left Shift + R: Restrain (Cop Only)<br/>
-				Left Shift + G: Hands up (Civ's can use it for robbing people.)<br/>
+				Left Shift + G: Hands up (Civ's can use it for robbing & kidnapping people.)<br/>
 				Left Windows: Main Interaction key which is used for picking up items/money, gathering, interacting with cars (repair,etc) and for cops to interact with civilians. Can be rebound to a single key like H by pressing ESC->Configure->Controls->Custom->Use Action 10<br/>
 				Left Shift + L: Activates cop siren lights (as a cop).<br/>
 				Left Shift + H: Holster's your Weapon<br/>
