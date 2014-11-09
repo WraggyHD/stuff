@@ -61,6 +61,18 @@ switch (_var) do
 	case "life_inv_defusekit": {(localize "STR_Item_DefuseKit")};
 	case "life_inv_storagesmall": {(localize "STR_Item_StorageBS")};
 	case "life_inv_storagebig": {(localize "STR_Item_StorageBL")};
+	case "life_inv_mash": {"Grain Mash Mixture"};
+	case "life_inv_yeast": {"Yeast"};
+	case "life_inv_rye": {"Rye"};
+	case "life_inv_hops": {"Hops"};
+	case "life_inv_whiskey": {"Distilled Whiskey"};
+	case "life_inv_beerp": {"Fermented Beer"};
+	case "life_inv_bottles": {"Glass Bottles"};
+	case "life_inv_cornmeal": {"Cornmeal Grains"};
+	case "life_inv_bottledwhiskey": {"Bottled Whiskey"};
+	case "life_inv_bottledbeer": {"Bottled Beer"};
+	case "life_inv_bottledshine": {"Bottled Moonshine"};
+	case "life_inv_moonshine": {"Distilled Moonshine"};
 	
 	//License Block
 	case "license_civ_driver": {(localize "STR_License_Driver")};
@@ -85,4 +97,7 @@ switch (_var) do
 	case "license_civ_cement": {(localize "STR_License_Cement")};
 	case "license_med_air": {(localize "STR_License_Pilot")};
 	case "license_civ_home": {(localize "STR_License_Home")};
+	case "license_civ_stiller": {"Distillers License"};
+	case "license_civ_liquor": {"Liquor License"};
+	case "license_civ_bottler": {"Bottling License"};
 };

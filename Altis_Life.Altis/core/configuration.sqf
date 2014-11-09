@@ -33,6 +33,7 @@ life_action_gathering = false;
 life_god = false; //Add this
 life_frozen = false; //And this
 life_markers = false; //Finally this
+life_drink = 0;
 
 //Persistent Saving
 __CONST__(life_save_civ,TRUE); //Save weapons for civs?
@@ -162,7 +163,19 @@ life_inv_items =
 	"life_inv_boltcutter",
 	"life_inv_defusekit",
 	"life_inv_storagesmall",
-	"life_inv_storagebig"
+	"life_inv_storagebig",
+	"life_inv_cornmeal",
+	"life_inv_beerp",
+	"life_inv_whiskey",
+	"life_inv_rye",
+	"life_inv_hops",
+	"life_inv_yeast",
+	"life_inv_bottles",
+	"life_inv_bottledshine",
+	"life_inv_bottledbeer",
+	"life_inv_bottledwhiskey",
+	"life_inv_moonshine",
+	"life_inv_mash"
 ];
 
 //Setup variable inv vars.
@@ -192,7 +205,10 @@ life_licenses =
 	["license_civ_salt","civ"],
 	["license_civ_cement","civ"],
 	["license_med_air","med"],
-	["license_civ_home","civ"]
+	["license_civ_home","civ"],
+	["license_civ_stiller","civ"],
+	["license_civ_liquor","civ"],
+	["license_civ_bottler","civ"]
 ];
 
 //Setup License Variables
@@ -200,7 +216,7 @@ life_licenses =
 
 life_dp_points = ["dp_1","dp_2","dp_3","dp_4","dp_5","dp_6","dp_7","dp_8","dp_9","dp_10","dp_11","dp_12","dp_13","dp_14","dp_15","dp_15","dp_16","dp_17","dp_18","dp_19","dp_20","dp_21","dp_22","dp_23","dp_24","dp_25"];
 //[shortVar,reward]
-life_illegal_items = [["heroinu",1200],["heroinp",2500],["cocaine",1500],["cocainep",3500],["marijuana",2000],["turtle",3000],["blastingcharge",100000],["boltcutter",50000]];
+life_illegal_items = [["heroinu",1200],["heroinp",2500],["cocaine",1500],["cocainep",3500],["marijuana",2000],["turtle",3000],["blastingcharge",100000],["boltcutter",50000],["moonshine",9000],["bottledshine",11000],["mash",5000]];
 
 /*
 	Sell / buy arrays
@@ -240,7 +256,19 @@ sell_array =
 	["fuelF",500],
 	["spikeStrip",1200],
 	["cement",1950],
-	["goldbar",95000]
+	["goldbar",95000],
+	["bottledshine",15000],
+	["bottledwhiskey",11000],
+	["bottledbeer",10000],
+	["moonshine",7000],
+	["whiskey",5000],
+	["beerp",4500],
+	["mash",2500],
+	["rye",2000],
+	["hops",1800],
+	["yeast",2000],
+	["cornmeal",200],
+	["bottles",75]
 ];
 __CONST__(sell_array,sell_array);
 
@@ -270,7 +298,16 @@ buy_array =
 	["boltcutter",7500],
 	["defusekit",2500],
 	["storagesmall",75000],
-	["storagebig",150000]
+	["storagebig",150000],
+	["bottledshine",12500], 
+	["bottledwhiskey",8000], 
+	["bottledbeer",8000], 
+	["moonshine",7500], 
+	["whiskey",5500], 
+	["beerp",5000], 
+	["cornmeal",500], 
+	["mash",2500], 
+	["bottles",100]
 ];
 __CONST__(buy_array,buy_array);
 

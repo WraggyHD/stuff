@@ -314,6 +314,7 @@ class Life_Client_Core
 		class tazerFix {};
 		class seizePlayerWeapon {};
 		class seizePlayerWeaponAction {};
+		class breathalyzer {};
 	};
 	
 	class Gangs
@@ -370,6 +371,9 @@ class Life_Client_Core
 		class defuseKit {};
 		class storageBox {};
 		class weed {};
+		class drinkbeer {};
+		class drinkmoonshine {};
+		class drinkwhiskey {};
 	};
 	
 	class Dialog_Controls
