@@ -288,7 +288,6 @@ class Life_Client_Core
 	{
 		file = "core\cop";
 		class copMarkers {};
-		class breathalyzer {};
 		class copLights {};
 		class vehInvSearch {};
 		class copSearch {};
@@ -371,9 +370,6 @@ class Life_Client_Core
 		class defuseKit {};
 		class storageBox {};
 		class weed {};
-		class drinkbeer {};
-		class drinkmoonshine {};
-		class drinkwhiskey {};
 	};
 	
 	class Dialog_Controls
