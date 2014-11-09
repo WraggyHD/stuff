@@ -60,6 +60,8 @@ player createDiarySubject ["controls","Controls"];
 				"
 					If bombing (bombing can be intentionally exploding a vehicle), robbing, or killing occurs around these or in these areas it is punishable by ban.<br/><br/>
 					
+					If you are wanted, and in a safezone, You are still able to commence in shoot-outs with Cops as long as you RolePlay it.<br/><br/>
+					
 					Any vehicle spawn (shop or garage)<br/>
 					Any weapon shop<br/>
 					All Police HQs<br/>
