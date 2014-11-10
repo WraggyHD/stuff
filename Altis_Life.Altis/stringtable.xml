@@ -4604,9 +4604,9 @@
 			<Original>Give Breathalyzer Test</Original>
 			<English>Give Breathalyzer Test</English>
 			<German>Geben Alkoholtest</German>
-			<French>Donnez alcootest test</French>
-			<Italian>Dare Etilometro test</Italian>
-			<Portuguese>Dê bafômetro Teste</Portuguese>
+			<French>Donnez Alcootest Test</French>
+			<Italian>Dare Etilometro Test</Italian>
+			<Portuguese>Dê Bafômetro Teste</Portuguese>
 		</Key>
 	</Package>
 		<Package name="Vehicle_Interaction">
@@ -4627,12 +4627,12 @@
 			<Portuguese>Desvirar Veículo</Portuguese>
 		</Key>
 		<Key ID="STR_vInAct_GetInKart">
-			<Original>Get In Kart</Original>
-			<English>Get In Kart</English>
-			<German>Ins Kart setzen</German>
-			<French>Mettre dans le kart</French>
-			<Italian>Entra nel Kart</Italian>
-			<Portuguese>Entrar no Kart</Portuguese>
+			<Original>Get In</Original>
+			<English>Get In</English>
+			<German>Reinsetzen</German>
+			<French>Entrer</French>
+			<Italian>Entrare</Italian>
+			<Portuguese>Entrar</Portuguese>
 		</Key>
 		<Key ID="STR_vInAct_PushBoat">
 			<Original>Push Boat</Original>
