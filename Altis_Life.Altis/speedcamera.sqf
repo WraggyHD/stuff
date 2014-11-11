@@ -1,4 +1,4 @@
-private ["_veh","_speedCam1","_dis1"]
+private ["_veh","_speedCam1","_dis1"];
 
 _veh = vehicle player;
 _speedCam1 = getMarkerPos "speed_cam_1";
@@ -17,14 +17,14 @@ switch (playerSide) do
 					if (vehicle player != player) then
 					{
 						if (speed _veh) > 160) then
-						hint "Slow Down Mother Fucker !";
-						sleep 3;
-						*
-					}
-				}
-			}
-		}
-	}
+							hint "Slow Down Mother Fucker !";
+							sleep 3;
+						};
+					};
+				};
+			};
+		};
+	};
 	
 	case west:
 	{
@@ -40,9 +40,4 @@ switch (playerSide) do
 	{
 	
 	};
-
-
-}
-
-
-
+};
