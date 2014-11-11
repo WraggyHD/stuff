@@ -10,7 +10,6 @@ private["_unit"];
 _unit = _this select 1;
 if(life_bail_paid) exitWith {};
 if(isNil {life_bail_amount}) then {life_bail_amount = 3500;};
-if(!isNil "life_canpay_bail") exitWith {hint localize "STR_NOTF_Bail_Post"};
 if(life_atmcash < life_bail_amount) exitWith {hint format[localize "STR_NOTF_Bail_NotEnough",life_bail_amount];};
 
 life_atmcash = life_atmcash - life_bail_amount;

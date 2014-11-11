@@ -3746,7 +3746,7 @@ class Mission
 					vehicle="B_RangeMaster_F";
 					leader=1;
 					skill=0.60000002;
-					init="removeAllWeapons this; this enableSimulation false; this allowDamage false; this addAction[""Pay Bail"",life_fnc_postBail,"""",0,false,false,"""",' isNil ""life_canpay_bail"" && life_is_arrested '];";
+					init="removeAllWeapons this; this enableSimulation false; this allowDamage false; this addAction[""Pay Bail"",life_fnc_postBail,"""",0,false,false,"""",' life_is_arrested && playerSide == civilian '];";
 				};
 			};
 		};
