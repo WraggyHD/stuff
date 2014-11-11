@@ -17,6 +17,7 @@ switch (playerSide) do
 					if (vehicle player != player) then
 					{
 						if (speed _veh) > 160) then
+						{
 							hint "Slow Down Mother Fucker !";
 							sleep 3;
 						};
