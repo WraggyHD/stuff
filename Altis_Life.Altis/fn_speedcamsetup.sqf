@@ -2,7 +2,7 @@ private ["_veh","_speedCam1","_dis1"]
 
 _veh = vehicle player
 _speedCam1 = getMarkerPos "speed_cam_1";
-_dis1;
+_dis1 = 100;
 
 switch (playerSide) do
 {
