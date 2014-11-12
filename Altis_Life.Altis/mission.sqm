@@ -9624,7 +9624,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=247;
+		items=382;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -9939,9 +9939,9 @@ class Mission
 		class Item41
 		{
 			position[]={16993.305,16.343332,12859.62};
-			name="civ_car_2";
-			type="Empty";
-			angle=148.42909;
+			name="speed_cam_70_7";
+			type="loc_Bush";
+			angle=148.429;
 		};
 		class Item42
 		{
@@ -11597,6 +11597,816 @@ class Mission
 			text="Distiller";
 			type="mil_box";
 			colorName="ColorCIV";
+		};
+		class Item247
+		{
+			position[]={4033.8826,19.589634,13668.855};
+			name="speed_cam_160_1";
+			type="loc_Bush";
+		};
+		class Item248
+		{
+			position[]={3322.52,4.5302281,12546.014};
+			name="speed_cam_160_2";
+			type="loc_Bush";
+		};
+		class Item249
+		{
+			position[]={26051.996,27.458214,21621.73};
+			name="speed_cam_160_3";
+			type="loc_Bush";
+		};
+		class Item250
+		{
+			position[]={25348,17.060101,21062.766};
+			name="speed_cam_160_4";
+			type="loc_Bush";
+		};
+		class Item251
+		{
+			position[]={8848.4775,103.39187,15784.556};
+			name="speed_cam_160_5";
+			type="loc_Bush";
+		};
+		class Item252
+		{
+			position[]={9841.9609,113.58334,15985.279};
+			name="speed_cam_160_6";
+			type="loc_Bush";
+		};
+		class Item253
+		{
+			position[]={17198.928,16.225935,13132.09};
+			name="speed_cam_160_7";
+			type="loc_Bush";
+		};
+		class Item254
+		{
+			position[]={17421.504,20.57464,12626.809};
+			name="speed_cam_160_8";
+			type="loc_Bush";
+		};
+		class Item255
+		{
+			position[]={18661.219,26.97583,16999.742};
+			name="speed_cam_160_9";
+			type="loc_Bush";
+		};
+		class Item256
+		{
+			position[]={19323.691,21.165195,16563.25};
+			name="speed_cam_160_10";
+			type="loc_Bush";
+		};
+		class Item257
+		{
+			position[]={20592.613,38.510002,16726.619};
+			name="speed_cam_160_11";
+			type="loc_Bush";
+		};
+		class Item258
+		{
+			position[]={21413.555,25.387897,17301.178};
+			name="speed_cam_160_12";
+			type="loc_Bush";
+		};
+		class Item259
+		{
+			position[]={26760.182,22.505381,23037.451};
+			name="speed_cam_160_13";
+			type="loc_Bush";
+		};
+		class Item260
+		{
+			position[]={4835.0205,67.48616,11607.085};
+			name="speed_cam_120_1";
+			type="loc_Bush";
+		};
+		class Item261
+		{
+			position[]={5340.623,63.40633,10949.138};
+			name="speed_cam_120_2";
+			type="loc_Bush";
+		};
+		class Item262
+		{
+			position[]={4353.3301,50.472645,11873.086};
+			name="speed_cam_120_3";
+			type="loc_Bush";
+		};
+		class Item263
+		{
+			position[]={4181.8379,16.776802,12934.901};
+			name="speed_cam_120_4";
+			type="loc_Bush";
+		};
+		class Item264
+		{
+			position[]={8639.502,31.141951,11464.353};
+			name="speed_cam_120_5";
+			type="loc_Bush";
+		};
+		class Item265
+		{
+			position[]={9405.7852,16.278135,11770.34};
+			name="speed_cam_120_6";
+			type="loc_Bush";
+		};
+		class Item266
+		{
+			position[]={6798.4067,66.255035,16113.62};
+			name="speed_cam_120_7";
+			type="loc_Bush";
+		};
+		class Item267
+		{
+			position[]={6308.7544,42.963802,16185.959};
+			name="speed_cam_120_8";
+			type="loc_Bush";
+		};
+		class Item268
+		{
+			position[]={10542.18,14.923531,12143.668};
+			name="speed_cam_120_9";
+			type="loc_Bush";
+		};
+		class Item269
+		{
+			position[]={10622.795,37.160603,13238.764};
+			name="speed_cam_120_10";
+			type="loc_Bush";
+		};
+		class Item270
+		{
+			position[]={11453.074,14.698686,13615.262};
+			name="speed_cam_120_11";
+			type="loc_Bush";
+		};
+		class Item271
+		{
+			position[]={11748.32,13.395501,13952.062};
+			name="speed_cam_120_12";
+			type="loc_Bush";
+		};
+		class Item272
+		{
+			position[]={12822.795,29.036747,14821.214};
+			name="speed_cam_120_13";
+			type="loc_Bush";
+		};
+		class Item273
+		{
+			position[]={12874.048,25.835699,15322.828};
+			name="speed_cam_120_14";
+			type="loc_Bush";
+		};
+		class Item274
+		{
+			position[]={14714.55,22.869307,17762.105};
+			name="speed_cam_120_15";
+			type="loc_Bush";
+		};
+		class Item275
+		{
+			position[]={14244.891,17.643044,18223.477};
+			name="speed_cam_120_16";
+			type="loc_Bush";
+		};
+		class Item276
+		{
+			position[]={13421.603,20.113205,18683.305};
+			name="speed_cam_120_17";
+			type="loc_Bush";
+		};
+		class Item277
+		{
+			position[]={8352.1143,179.85271,18201.061};
+			name="speed_cam_120_18";
+			type="loc_Bush";
+		};
+		class Item278
+		{
+			position[]={8795.8975,157.72443,18587.441};
+			name="speed_cam_120_19";
+			type="loc_Bush";
+		};
+		class Item279
+		{
+			position[]={10304.996,110.76248,18929.154};
+			name="speed_cam_120_20";
+			type="loc_Bush";
+		};
+		class Item280
+		{
+			position[]={10368.665,143.49342,19262.961};
+			name="speed_cam_120_21";
+			type="loc_Bush";
+		};
+		class Item281
+		{
+			position[]={9565,154.52113,20112.672};
+			name="speed_cam_120_22";
+			type="loc_Bush";
+		};
+		class Item282
+		{
+			position[]={10570.068,105.64437,18996.859};
+			name="speed_cam_120_23";
+			type="loc_Bush";
+		};
+		class Item283
+		{
+			position[]={13477.836,20.101833,18683.328};
+			name="speed_cam_120_24";
+			type="loc_Bush";
+		};
+		class Item284
+		{
+			position[]={14200.692,18.436787,18308.15};
+			name="speed_cam_120_25";
+			type="loc_Bush";
+		};
+		class Item285
+		{
+			position[]={16196.353,13.259727,16950.098};
+			name="speed_cam_120_26";
+			type="loc_Bush";
+		};
+		class Item286
+		{
+			position[]={16688.809,14.019619,15917.514};
+			name="speed_cam_120_27";
+			type="loc_Bush";
+		};
+		class Item287
+		{
+			position[]={17883.371,15.028983,14886.736};
+			name="speed_cam_120_28";
+			type="loc_Bush";
+		};
+		class Item288
+		{
+			position[]={18455.457,19.73053,15043.734};
+			name="speed_cam_120_29";
+			type="loc_Bush";
+		};
+		class Item289
+		{
+			position[]={18802.748,32.569389,16261.229};
+			name="speed_cam_120_30";
+			type="loc_Bush";
+		};
+		class Item290
+		{
+			position[]={17875.506,6.6652417,18038.629};
+			name="speed_cam_120_31";
+			type="loc_Bush";
+		};
+		class Item291
+		{
+			position[]={17689.119,6.7375073,18032.469};
+			name="speed_cam_120_32";
+			type="loc_Bush";
+		};
+		class Item292
+		{
+			position[]={14500.758,36.326042,20569.072};
+			name="speed_cam_120_33";
+			type="loc_Bush";
+		};
+		class Item293
+		{
+			position[]={20975.189,26.52463,6931.9648};
+			name="speed_cam_120_34";
+			type="loc_Bush";
+		};
+		class Item294
+		{
+			position[]={21428.891,16.934734,7497.3286};
+			name="speed_cam_120_35";
+			type="loc_Bush";
+		};
+		class Item295
+		{
+			position[]={16850.734,9.3692636,12215.616};
+			name="speed_cam_120_36";
+			type="loc_Bush";
+		};
+		class Item296
+		{
+			position[]={18372.299,18.958887,15068.075};
+			name="speed_cam_120_37";
+			type="loc_Bush";
+		};
+		class Item297
+		{
+			position[]={17916.002,15.842861,14946.642};
+			name="speed_cam_120_38";
+			type="loc_Bush";
+		};
+		class Item298
+		{
+			position[]={18415.328,49.420155,15502.211};
+			name="speed_cam_120_39";
+			type="loc_Bush";
+		};
+		class Item299
+		{
+			position[]={21053.662,27.41976,16358.08};
+			name="speed_cam_120_40";
+			type="loc_Bush";
+		};
+		class Item300
+		{
+			position[]={21266.92,24.998877,16591.254};
+			name="speed_cam_120_41";
+			type="loc_Bush";
+		};
+		class Item301
+		{
+			position[]={25583.969,17.908253,21235.869};
+			name="speed_cam_70_1";
+			type="loc_Bush";
+		};
+		class Item302
+		{
+			position[]={25871.09,21.068748,21501.639};
+			name="speed_cam_70_2";
+			type="loc_Bush";
+		};
+		class Item303
+		{
+			position[]={21061.945,35.704517,17053.586};
+			name="speed_cam_70_3";
+			type="loc_Bush";
+		};
+		class Item304
+		{
+			position[]={20852.834,38.368641,16750.707};
+			name="speed_cam_70_4";
+			type="loc_Bush";
+		};
+		class Item305
+		{
+			position[]={18843.873,31.456856,16650.168};
+			name="speed_cam_70_5";
+			type="loc_Bush";
+		};
+		class Item306
+		{
+			position[]={16164.76,24.145016,17366.352};
+			name="speed_cam_70_6";
+			type="loc_Bush";
+		};
+		class Item307
+		{
+			position[]={17093.775,14.771702,12664.855};
+			name="speed_cam_70_8";
+			type="loc_Bush";
+		};
+		class Item308
+		{
+			position[]={9494.6592,118.45047,15923.185};
+			name="speed_cam_70_9";
+			type="loc_Bush";
+		};
+		class Item309
+		{
+			position[]={9098.7119,116.43642,15777.462};
+			name="speed_cam_70_10";
+			type="loc_Bush";
+		};
+		class Item310
+		{
+			position[]={3814.5015,13.306079,13480.574};
+			name="speed_cam_70_11";
+			type="loc_Bush";
+		};
+		class Item311
+		{
+			position[]={3502.2966,7.5939589,12794.372};
+			name="speed_cam_70_12";
+			type="loc_Bush";
+		};
+		class Item312
+		{
+			position[]={3476.2856,5.8677726,13107.395};
+			name="speed_cam_50_1";
+			type="loc_Bush";
+		};
+		class Item313
+		{
+			position[]={3495.3716,7.9852357,12937.286};
+			name="speed_cam_50_2";
+			type="loc_Bush";
+		};
+		class Item314
+		{
+			position[]={3558.437,3.4267833,13226.058};
+			name="speed_cam_50_3";
+			type="loc_Bush";
+		};
+		class Item315
+		{
+			position[]={3778.6833,18.730604,12957.563};
+			name="speed_cam_50_4";
+			type="loc_Bush";
+		};
+		class Item316
+		{
+			position[]={3758.5073,15.250292,13614.848};
+			name="speed_cam_50_5";
+			type="loc_Bush";
+		};
+		class Item317
+		{
+			position[]={5052.3994,40.986191,11150.652};
+			name="speed_cam_50_6";
+			type="loc_Bush";
+		};
+		class Item318
+		{
+			position[]={3944.4089,16.603722,11545.436};
+			name="speed_cam_50_7";
+			type="loc_Bush";
+		};
+		class Item319
+		{
+			position[]={4150.251,52.03561,11731.695};
+			name="speed_cam_50_8";
+			type="loc_Bush";
+		};
+		class Item320
+		{
+			position[]={3627.7395,19.752726,10370.211};
+			name="speed_cam_50_9";
+			type="loc_Bush";
+		};
+		class Item321
+		{
+			position[]={4588.6489,50.893665,13849.112};
+			name="speed_cam_50_10";
+			type="loc_Bush";
+		};
+		class Item322
+		{
+			position[]={4388.7129,41.557384,14210.865};
+			name="speed_cam_50_11";
+			type="loc_Bush";
+		};
+		class Item323
+		{
+			position[]={4807.6206,18.245174,14675.77};
+			name="speed_cam_50_12";
+			type="loc_Bush";
+		};
+		class Item324
+		{
+			position[]={5365.708,19.098671,14738.454};
+			name="speed_cam_50_13";
+			type="loc_Bush";
+		};
+		class Item325
+		{
+			position[]={6168.6147,32.730782,15676.89};
+			name="speed_cam_50_14";
+			type="loc_Bush";
+		};
+		class Item326
+		{
+			position[]={9044.7246,22.092957,11960.678};
+			name="speed_cam_50_15";
+			type="loc_Bush";
+		};
+		class Item327
+		{
+			position[]={9030.7402,30.333477,12130.686};
+			name="speed_cam_50_16";
+			type="loc_Bush";
+		};
+		class Item328
+		{
+			position[]={9348.1152,112.47703,15961.076};
+			name="speed_cam_50_17";
+			type="loc_Bush";
+		};
+		class Item329
+		{
+			position[]={9453.4365,108.59949,16008.005};
+			name="speed_cam_50_18";
+			type="loc_Bush";
+		};
+		class Item330
+		{
+			position[]={8588.1162,188.22543,18095.729};
+			name="speed_cam_50_19";
+			type="loc_Bush";
+		};
+		class Item331
+		{
+			position[]={8628.1602,180.42049,18287.293};
+			name="speed_cam_50_20";
+			type="loc_Bush";
+		};
+		class Item332
+		{
+			position[]={10413.51,122.71474,19099.57};
+			name="speed_cam_50_21";
+			type="loc_Bush";
+		};
+		class Item333
+		{
+			position[]={10237.002,122.66397,19060.797};
+			name="speed_cam_50_22";
+			type="loc_Bush";
+		};
+		class Item334
+		{
+			position[]={9409.9043,118.15775,20302.684};
+			name="speed_cam_50_23";
+			type="loc_Bush";
+		};
+		class Item335
+		{
+			position[]={13934.899,23.278357,18719.092};
+			name="speed_cam_50_24";
+			type="loc_Bush";
+		};
+		class Item336
+		{
+			position[]={14096.424,26.525148,18627.043};
+			name="speed_cam_50_25";
+			type="loc_Bush";
+		};
+		class Item337
+		{
+			position[]={13999.743,23.816597,18792.619};
+			name="speed_cam_50_26";
+			type="loc_Bush";
+		};
+		class Item338
+		{
+			position[]={12327.101,24.030592,15681.35};
+			name="speed_cam_50_27";
+			type="Empty";
+		};
+		class Item339
+		{
+			position[]={12384.105,25.018049,15516.57};
+			name="speed_cam_50_28";
+			type="Empty";
+		};
+		class Item340
+		{
+			position[]={11974.812,28.337606,15692.735};
+			name="speed_cam_50_29";
+			type="loc_Bush";
+		};
+		class Item341
+		{
+			position[]={11731.348,12.578015,13661.001};
+			name="speed_cam_50_30";
+			type="loc_Bush";
+		};
+		class Item342
+		{
+			position[]={10592.112,16.279789,12381.464};
+			name="speed_cam_50_31";
+			type="loc_Bush";
+		};
+		class Item343
+		{
+			position[]={14543.299,24.948843,17586.057};
+			name="speed_cam_50_32";
+			type="loc_Bush";
+		};
+		class Item344
+		{
+			position[]={16308.363,21.640667,17195.139};
+			name="speed_cam_50_33";
+			type="loc_Bush";
+		};
+		class Item345
+		{
+			position[]={16480.889,17.600359,17082.172};
+			name="speed_cam_50_34";
+			type="loc_Bush";
+		};
+		class Item346
+		{
+			position[]={16747.281,17.614813,16244.645};
+			name="speed_cam_50_35";
+			type="loc_Bush";
+		};
+		class Item347
+		{
+			position[]={18164.945,30.445374,15351.59};
+			name="speed_cam_50_36";
+			type="loc_Bush";
+		};
+		class Item348
+		{
+			position[]={17990.686,26.909605,15221.311};
+			name="speed_cam_50_37";
+			type="loc_Bush";
+		};
+		class Item349
+		{
+			position[]={16670.918,15.239815,12730.582};
+			name="speed_cam_50_38";
+			type="loc_Bush";
+		};
+		class Item350
+		{
+			position[]={16787.477,20.384907,12856.383};
+			name="speed_cam_50_39";
+			type="loc_Bush";
+		};
+		class Item351
+		{
+			position[]={16912.223,20.164764,12528.38};
+			name="speed_cam_50_40";
+			type="loc_Bush";
+		};
+		class Item352
+		{
+			position[]={20785.742,41.702026,6678.3159};
+			name="speed_cam_50_41";
+			type="loc_Bush";
+		};
+		class Item353
+		{
+			position[]={20713.344,38.993103,6831.3301};
+			name="speed_cam_50_42";
+			type="loc_Bush";
+		};
+		class Item354
+		{
+			position[]={20738.031,43.347351,6655.499};
+			name="speed_cam_50_43";
+			type="loc_Bush";
+		};
+		class Item355
+		{
+			position[]={21670.404,16.358795,7479.8052};
+			name="speed_cam_50_44";
+			type="loc_Bush";
+		};
+		class Item356
+		{
+			position[]={21821.145,14.144218,7575.8955};
+			name="speed_cam_50_45";
+			type="loc_Bush";
+		};
+		class Item357
+		{
+			position[]={20545.008,35.042896,8891.0996};
+			name="speed_cam_50_46";
+			type="loc_Bush";
+		};
+		class Item358
+		{
+			position[]={20514.307,30.528446,8754.1807};
+			name="speed_cam_50_47";
+			type="loc_Bush";
+		};
+		class Item359
+		{
+			position[]={20166.033,57.251049,11497.123};
+			name="speed_cam_50_48";
+			type="loc_Bush";
+		};
+		class Item360
+		{
+			position[]={20276.348,48.577011,11713.182};
+			name="speed_cam_50_49";
+			type="loc_Bush";
+		};
+		class Item361
+		{
+			position[]={20514.6,41.771614,11659.658};
+			name="speed_cam_50_50";
+			type="loc_Bush";
+		};
+		class Item362
+		{
+			position[]={20022.43,57.612926,11668.797};
+			name="speed_cam_50_51";
+			type="loc_Bush";
+		};
+		class Item363
+		{
+			position[]={19400.658,38.833447,13248.869};
+			name="speed_cam_50_52";
+			type="loc_Bush";
+		};
+		class Item364
+		{
+			position[]={19435.598,34.380859,13359.514};
+			name="speed_cam_50_53";
+			type="loc_Bush";
+		};
+		class Item365
+		{
+			position[]={18154.188,29.096119,15328.684};
+			name="speed_cam_50_54";
+			type="loc_Bush";
+		};
+		class Item366
+		{
+			position[]={17959.02,25.332996,15184.428};
+			name="speed_cam_50_55";
+			type="loc_Bush";
+		};
+		class Item367
+		{
+			position[]={18916.238,26.013968,16505.713};
+			name="speed_cam_50_56";
+			type="loc_Bush";
+		};
+		class Item368
+		{
+			position[]={18684.391,34.776066,16596.461};
+			name="speed_cam_50_57";
+			type="loc_Bush";
+		};
+		class Item369
+		{
+			position[]={18677.387,39.782734,16793.742};
+			name="speed_cam_50_58";
+			type="loc_Bush";
+		};
+		class Item370
+		{
+			position[]={21375.17,18.554996,16256.682};
+			name="speed_cam_50_59";
+			type="loc_Bush";
+		};
+		class Item371
+		{
+			position[]={21601.371,15.826963,16142.274};
+			name="speed_cam_50_60";
+			type="loc_Bush";
+		};
+		class Item372
+		{
+			position[]={21474.721,23.147978,16514.059};
+			name="peed_cam_50_61";
+			type="loc_Bush";
+		};
+		class Item373
+		{
+			position[]={21508.205,18.832642,16368.688};
+			name="speed_cam_50_61";
+			type="loc_Bush";
+		};
+		class Item374
+		{
+			position[]={20877.455,45.65461,17166.064};
+			name="speed_cam_50_62";
+			type="loc_Bush";
+		};
+		class Item375
+		{
+			position[]={25691.607,16.280638,21195.506};
+			name="speed_cam_50_63";
+			type="loc_Bush";
+		};
+		class Item376
+		{
+			position[]={25866.701,18.825186,21362.898};
+			name="speed_cam_50_64";
+			type="Empty";
+		};
+		class Item377
+		{
+			position[]={25618.695,20.855097,21374.195};
+			name="speed_cam_50_65";
+			type="loc_Bush";
+		};
+		class Item378
+		{
+			position[]={27033.973,20.785992,23140.701};
+			name="speed_cam_50_66";
+			type="loc_Bush";
+		};
+		class Item379
+		{
+			position[]={27191.957,22.727165,23164.346};
+			name="speed_cam_50_67";
+			type="loc_Bush";
+		};
+		class Item380
+		{
+			position[]={27143.953,18.734579,23348.834};
+			name="speed_cam_50_68";
+			type="loc_Bush";
+		};
+		class Item381
+		{
+			position[]={26915.113,16.102629,23417.537};
+			name="speed_cam_50_69";
+			type="loc_Bush";
 		};
 	};
 };
