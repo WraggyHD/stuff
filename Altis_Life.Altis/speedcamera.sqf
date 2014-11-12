@@ -22,13 +22,24 @@ switch(playerSide) do
 		{
 			if (alive player) then
 			{
-				if (_speedCam16001 distance player < _dis | _speedCam16002 distance player < _dis | _speedCam16002 distance player < _dis |) then
+				if (_speedCam16001 distance player < _dis ) then
 				{
 					if (speed _veh > 160) then
 					{
-						hint "It works!";
+						_ppEffect = ppEffectCreate ["ColorCorrections",2500];
+						_ppEffect ppEffectAdjust [1, 1, -0.01, [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1]];
+						_ppEffect ppEffectCommit 0.1;
+						_ppEffect ppEffectEnable true;
+						_ppEffect ppEffectForceInNVG true;
+						_blurEffect ppEffectAdjust [3];
+						_blurEffect ppEffectCommit 0.2;
+						hint "You have been caught speeding !";
 						[[getPlayerUID player,profileName,"569"],"life_fnc_wantedAdd",false,false] spawn life_fnc_MP;
-						sleep 3;						
+						player say3D "camera_shutter";
+						sleep 0.15;
+						_ppEffect ppEffectEnable false;
+						ppEffectDestroy _ppEffect;
+						sleep 4;
 					}
 				};
 			};
