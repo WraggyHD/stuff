@@ -12,7 +12,7 @@ switch(playerSide) do
 		{
 			if (alive player) then
 			{
-				if (_speedCam1 distance player < _dis1) then
+				if (_speedCam1 distance player < _dis) then
 				{
 					if (speed _veh > 160) then
 					{
