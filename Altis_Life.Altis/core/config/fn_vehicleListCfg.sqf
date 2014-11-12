@@ -82,10 +82,10 @@ switch (_shop) do
 			["B_G_Offroad_01_F",15000],
 			["O_MRAP_02_F",150000],
 			["I_MRAP_03_F",150000],
-			["I_MRAP_03_hmg_F",2500000],
-			["I_MRAP_03_gmg_F",3000000],
-			["O_MRAP_02_hmg_F",2500000],
-			["O_MRAP_02_gmg_F",3000000],
+			["I_MRAP_03_hmg_F",750000],
+			["I_MRAP_03_gmg_F",1000000],
+			["O_MRAP_02_hmg_F",750000],
+			["O_MRAP_02_gmg_F",1000000],
 			["B_Heli_Light_01_F",325000]
 			
 		];
@@ -112,8 +112,8 @@ switch (_shop) do
 		if(__GETC__(life_coplevel) > 5) then
 		{
 			_return pushBack
-			["B_MRAP_01_gmg_F",200000];
-			["B_MRAP_01_hmg_F",150000];
+			["B_MRAP_01_gmg_F",1000000];
+			["B_MRAP_01_hmg_F",750000];
 		};
 	};
 	
