@@ -2,9 +2,9 @@ private ["_veh","_speedCam1","_dis1"];
 
 _veh = vehicle player;
 _speedCam1 = getMarkerPos "speed_cam_1";
-_dis1 = 50;
+_dis = 60;
 
-switch (playerSide) do
+switch(playerSide) do
 {
 	case civilian:
 	{
@@ -14,31 +14,15 @@ switch (playerSide) do
 			{
 				if (_speedCam1 distance player < _dis1) then
 				{
-					if (vehicle player != player) then
+					if (speed _veh > 160) then
 					{
-						if (speed _veh) >= 160) then
-						{
-							hint "Slow Down Mother Fucker !";
-							sleep 3;
-						};
-					};
+						hint "It works!";
+						[[getPlayerUID player,profileName,"569"],"life_fnc_wantedAdd",false,false] spawn life_fnc_MP;
+						sleep 3;						
+					}
 				};
 			};
+		
 		};
-	};
-	
-	case west:
-	{
-	
-	};
-
-	case independent:
-	{
-	
-	};
-	
-	case east:
-	{
-	
 	};
 };
