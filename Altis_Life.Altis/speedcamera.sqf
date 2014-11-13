@@ -153,7 +153,7 @@ switch(playerSide) do
 			{
 				if (_speedCam16001 distance player < _dis || _speedCam16002 distance player < _dis || _speedCam16003 distance player < _dis || _speedCam16004 distance player < _dis || _speedCam16005 distance player < _dis || _speedCam16006 distance player < _dis || _speedCam16007 distance player < _dis || _speedCam16008 distance player < _dis || _speedCam16009 distance player < _dis || _speedCam160010 distance player < _dis || _speedCam160011 distance player < _dis || _speedCam160012 distance player < _dis || _speedCam160013 distance player < _dis) then
 				{
-					if (speed _veh > 160) then
+					if (speed _veh >= 160) then
 					{
 						_ppEffect = ppEffectCreate ["ColorCorrections",2500];
 						_ppEffect ppEffectAdjust [1, 1, -0.01, [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1]];
@@ -162,7 +162,70 @@ switch(playerSide) do
 						_ppEffect ppEffectForceInNVG true;
 						_blurEffect ppEffectAdjust [3];
 						_blurEffect ppEffectCommit 0.2;
-						hint "You have been caught speeding !";
+						hint "You have been caught speeding!";
+						[[getPlayerUID player,profileName,"569"],"life_fnc_wantedAdd",false,false] spawn life_fnc_MP;
+						player say3D "cameraFlash";
+						sleep 0.15;
+						_ppEffect ppEffectEnable false;
+						ppEffectDestroy _ppEffect;
+						sleep 4;
+					};
+				};
+				
+				if (_speedCam12001 distance player < _dis || _speedCam12002 distance player < _dis || _speedCam12003 distance player < _dis || _speedCam12004 distance player < _dis || _speedCam12005 distance player < _dis || _speedCam12006 distance player < _dis || _speedCam12007 distance player < _dis || _speedCam12008 distance player < _dis || _speedCam12009 distance player < _dis || _speedCam120010 distance player < _dis || _speedCam120011 distance player < _dis || _speedCam120012 distance player < _dis || _speedCam120013 distance player < _dis || _speedCam12014 distance player < _dis || _speedCam12015 distance player < _dis || _speedCam12016 distance player < _dis || _speedCam12017 distance player < _dis || _speedCam12018 distance player < _dis || _speedCam12019 distance player < _dis || _speedCam12020 distance player < _dis || _speedCam12021 distance player < _dis || _speedCam120022 distance player < _dis || _speedCam120023 distance player < _dis || _speedCam120024 distance player < _dis || _speedCam120025 distance player < _dis || _speedCam12026 distance player < _dis || _speedCam12027 distance player < _dis || _speedCam12028 distance player < _dis || _speedCam12029 distance player < _dis || _speedCam12030 distance player < _dis || _speedCam12031 distance player < _dis || _speedCam12032 distance player < _dis || _speedCam12033 distance player < _dis || _speedCam120034 distance player < _dis || _speedCam120035 distance player < _dis || _speedCam120036 distance player < _dis || _speedCam120037 distance player < _dis || _speedCam12038 distance player < _dis || _speedCam12039 distance player < _dis || _speedCam12040 distance player < _dis || _speedCam12041 distance player < _dis) then
+				{
+					if (speed _veh >= 120) then
+					{
+						_ppEffect = ppEffectCreate ["ColorCorrections",2500];
+						_ppEffect ppEffectAdjust [1, 1, -0.01, [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1]];
+						_ppEffect ppEffectCommit 0.1;
+						_ppEffect ppEffectEnable true;
+						_ppEffect ppEffectForceInNVG true;
+						_blurEffect ppEffectAdjust [3];
+						_blurEffect ppEffectCommit 0.2;
+						hint "You have been caught speeding!";
+						[[getPlayerUID player,profileName,"569"],"life_fnc_wantedAdd",false,false] spawn life_fnc_MP;
+						player say3D "cameraFlash";
+						sleep 0.15;
+						_ppEffect ppEffectEnable false;
+						ppEffectDestroy _ppEffect;
+						sleep 4;
+					};
+				};
+				
+				if (_speedCam07001 distance player < _dis || _speedCam07002 distance player < _dis || _speedCam07003 distance player < _dis || _speedCam07004 distance player < _dis || _speedCam07005 distance player < _dis || _speedCam07006 distance player < _dis || _speedCam07007 distance player < _dis || _speedCam07008 distance player < _dis || _speedCam07009 distance player < _dis || _speedCam070010 distance player < _dis || _speedCam070011 distance player < _dis || _speedCam070012 distance player < _dis) then
+				{
+					if (speed _veh >= 70) then
+					{
+						_ppEffect = ppEffectCreate ["ColorCorrections",2500];
+						_ppEffect ppEffectAdjust [1, 1, -0.01, [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1]];
+						_ppEffect ppEffectCommit 0.1;
+						_ppEffect ppEffectEnable true;
+						_ppEffect ppEffectForceInNVG true;
+						_blurEffect ppEffectAdjust [3];
+						_blurEffect ppEffectCommit 0.2;
+						hint "You have been caught speeding!";
+						[[getPlayerUID player,profileName,"569"],"life_fnc_wantedAdd",false,false] spawn life_fnc_MP;
+						player say3D "cameraFlash";
+						sleep 0.15;
+						_ppEffect ppEffectEnable false;
+						ppEffectDestroy _ppEffect;
+						sleep 4;
+					};
+				};
+				
+				if (_speedCam05001 distance player < _dis || _speedCam05002 distance player < _dis || _speedCam05003 distance player < _dis || _speedCam05004 distance player < _dis || _speedCam05005 distance player < _dis || _speedCam05006 distance player < _dis || _speedCam05007 distance player < _dis || _speedCam05008 distance player < _dis || _speedCam05009 distance player < _dis || _speedCam050010 distance player < _dis || _speedCam050011 distance player < _dis || _speedCam050012 distance player < _dis || _speedCam050013 distance player < _dis || _speedCam05014 distance player < _dis || _speedCam05015 distance player < _dis || _speedCam05016 distance player < _dis || _speedCam05017 distance player < _dis || _speedCam05018 distance player < _dis || _speedCam05019 distance player < _dis || _speedCam05020 distance player < _dis || _speedCam05021 distance player < _dis || _speedCam050022 distance player < _dis || _speedCam050023 distance player < _dis || _speedCam050024 distance player < _dis || _speedCam050025 distance player < _dis || _speedCam05026 distance player < _dis || _speedCam05027 distance player < _dis || _speedCam05028 distance player < _dis || _speedCam05029 distance player < _dis || _speedCam05030 distance player < _dis || _speedCam05031 distance player < _dis || _speedCam05032 distance player < _dis || _speedCam05033 distance player < _dis || _speedCam050034 distance player < _dis || _speedCam050035 distance player < _dis || _speedCam050036 distance player < _dis || _speedCam050037 distance player < _dis || _speedCam05038 distance player < _dis || _speedCam05039 distance player < _dis || _speedCam05040 distance player < _dis || _speedCam05041 distance player < _dis || _speedCam05042 distance player < _dis || _speedCam05043 distance player < _dis || _speedCam05044 distance player < _dis || _speedCam05045 distance player < _dis || _speedCam050046 distance player < _dis || _speedCam050047 distance player < _dis || _speedCam050048 distance player < _dis || _speedCam050049 distance player < _dis _speedCam05050 distance player < _dis || _speedCam05051 distance player < _dis || _speedCam05052 distance player < _dis || _speedCam05053 distance player < _dis || _speedCam05054 distance player < _dis || _speedCam05055 distance player < _dis || _speedCam05056 distance player < _dis || _speedCam05057 distance player < _dis || _speedCam050058 distance player < _dis || _speedCam050059 distance player < _dis || _speedCam050060 distance player < _dis || _speedCam050061 distance player < _dis || _speedCam050062 distance player < _dis || _speedCam050063 distance player < _dis || _speedCam050064 distance player < _dis|| _speedCam050065 distance player < _dis || _speedCam050066 distance player < _dis || _speedCam050067 distance player < _dis || _speedCam050068 distance player < _dis || _speedCam050069 distance player < _dis) then
+				{
+					if (speed _veh >= 50) then
+					{
+						_ppEffect = ppEffectCreate ["ColorCorrections",2500];
+						_ppEffect ppEffectAdjust [1, 1, -0.01, [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1]];
+						_ppEffect ppEffectCommit 0.1;
+						_ppEffect ppEffectEnable true;
+						_ppEffect ppEffectForceInNVG true;
+						_blurEffect ppEffectAdjust [3];
+						_blurEffect ppEffectCommit 0.2;
+						hint "You have been caught speeding!";
 						[[getPlayerUID player,profileName,"569"],"life_fnc_wantedAdd",false,false] spawn life_fnc_MP;
 						player say3D "cameraFlash";
 						sleep 0.15;
