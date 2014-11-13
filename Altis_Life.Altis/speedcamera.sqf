@@ -35,7 +35,7 @@ switch(playerSide) do
 						_blurEffect ppEffectCommit 0.2;
 						hint "You have been caught speeding !";
 						[[getPlayerUID player,profileName,"569"],"life_fnc_wantedAdd",false,false] spawn life_fnc_MP;
-						player say3D "camera_shutter";
+						player say3D "cameraFlash";
 						sleep 0.15;
 						_ppEffect ppEffectEnable false;
 						ppEffectDestroy _ppEffect;
