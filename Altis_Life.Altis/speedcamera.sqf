@@ -157,7 +157,7 @@ switch(playerSide) do
 					if (speed _veh > 160) then
 					{
 						_inArea = true;
-						player say3D "cameraFlash";
+						_veh say3D "cameraFlash";
 						_ppEffect = ppEffectCreate ["ColorCorrections",2500];
 						_ppEffect ppEffectAdjust [1, 1, -0.01, [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1]];
 						_ppEffect ppEffectCommit 0.1;
@@ -182,7 +182,7 @@ switch(playerSide) do
 					if (speed _veh > 160) then
 					{
 						_inArea = true;
-						player say3D "cameraFlash";
+						_veh say3D "cameraFlash";
 						_ppEffect = ppEffectCreate ["ColorCorrections",2500];
 						_ppEffect ppEffectAdjust [1, 1, -0.01, [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1]];
 						_ppEffect ppEffectCommit 0.1;
@@ -207,7 +207,7 @@ switch(playerSide) do
 					if (speed _veh > 160) then
 					{
 						_inArea = true;
-						player say3D "cameraFlash";
+						_veh say3D "cameraFlash";
 						_ppEffect = ppEffectCreate ["ColorCorrections",2500];
 						_ppEffect ppEffectAdjust [1, 1, -0.01, [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1]];
 						_ppEffect ppEffectCommit 0.1;
@@ -232,7 +232,7 @@ switch(playerSide) do
 					if (speed _veh > 160) then
 					{
 						_inArea = true;
-						player say3D "cameraFlash";
+						_veh say3D "cameraFlash";
 						_ppEffect = ppEffectCreate ["ColorCorrections",2500];
 						_ppEffect ppEffectAdjust [1, 1, -0.01, [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1]];
 						_ppEffect ppEffectCommit 0.1;
