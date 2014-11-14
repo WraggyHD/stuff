@@ -173,7 +173,7 @@ switch(playerSide) do
 						sleep 2;
 					};
 				};
-				if ((_speedCam16001 distance player < _dis) || (_speedCam16002 distance player < _dis) || (_speedCam16003 distance player < _dis) || (_speedCam16004 distance player < _dis) || (_speedCam16005 distance player < _dis) || (_speedCam16006 distance player < _dis) || (_speedCam16007 distance player < _dis) || (_speedCam16008 distance player < _dis) || (_speedCam16009 distance player < _dis) || (_speedCam16010 distance player < _dis) || (_speedCam16011 distance player < _dis) || (_speedCam16012 distance player < _dis) || (_speedCam16013 distance player < _dis)) && (_inArea)) then
+				if (((_speedCam16001 distance player > _dis) || (_speedCam16002 distance player > _dis) || (_speedCam16003 distance player > _dis) || (_speedCam16004 distance player > _dis) || (_speedCam16005 distance player > _dis) || (_speedCam16006 distance player > _dis) || (_speedCam16007 distance player > _dis) || (_speedCam16008 distance player > _dis) || (_speedCam16009 distance player > _dis) || (_speedCam16010 distance player > _dis) || (_speedCam16011 distance player > _dis) || (_speedCam16012 distance player > _dis) || (_speedCam16013 distance player > _dis)) && (_inArea)) then
 				{
 					_inArea = false;
 				};
