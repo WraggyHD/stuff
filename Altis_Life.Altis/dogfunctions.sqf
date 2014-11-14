@@ -19,6 +19,7 @@ _setVariable =
 	};
 	
 
+	
 
 _dogRevive = 
 	{
@@ -56,6 +57,8 @@ _dogWhistle =
         _unit setvariable ["follow",'false'];
         _tempPos = [(getpos _unit) select 0,((getpos _unit) select 1) + 1,0];
         _side = side _unit;
+		
+		_eh1 = _dog addEventHandler ["death", {deleteVehicle _dog}];
 		
         _group1 = createGroup _side;
         
