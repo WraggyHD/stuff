@@ -57,7 +57,7 @@ class CfgSounds
 	class cameraflash
 	{
 		name = "cameraFlash";
-		sound[] = {"\sound\camera_shutter.ogg", 1.0, 1};
+		sound[] = {"\sounds\camera_shutter.ogg", 1.0, 1};
 		titles[] = {};
 	}
 	
