@@ -105,7 +105,7 @@ class Mission
 	class Intel
 	{
 		briefingName="[UK] Cryptic Nation - Altis Life RPG";
-		overviewText="Altis Life RPG 3.1.4.8 + Custom Scripts by ExplosiveDart";
+		overviewText="Altis Life RPG 3.1.4.8 + Custom Scripts by ExplosiveDart & Striider";
 		startWeather=0.099999994;
 		startWind=0.29999998;
 		startWindDir=20;
