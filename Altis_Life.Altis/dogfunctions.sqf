@@ -58,8 +58,8 @@ _dogWhistle =
         _tempPos = [(getpos _unit) select 0,((getpos _unit) select 1) + 1,0];
         _side = side _unit;
 		
-		_eh1 = _dog addEventHandler ["death", {deleteVehicle _dog}]; 
-		_eh1 = _dog addEventHandler ["killed", {deleteVehicle _dog}];
+		_eh1 = _unit addEventHandler ["death", {deleteVehicle _unit}]; 
+		_eh1 = _unit addEventHandler ["killed", {deleteVehicle _unit}];
 		
         _group1 = createGroup _side;
         
