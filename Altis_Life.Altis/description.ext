@@ -57,7 +57,7 @@ class CfgSounds
 	class cameraflash
 	{
 		name = "cameraFlash";
-		sound[] = {"\sound\camera_shutter.ogg", 1.0, 1};
+		sound[] = {"\sound\camera_shutter.ogg"};
 		titles[] = {};
 	}
 	
@@ -68,10 +68,57 @@ class CfgSounds
 		titles[] = {};
 	};
 	
-		class Cuff {
+	class Cuff
+	{
 		name = "cuff";
 		sound[] = {"\sounds\cuff.ogg", 0.95, 0.95};
 		titles[] = {};
+	};
+	
+	class dog_whine
+	{
+		name = "dog_whine";
+		sound[] = {"\sounds\dog_whine.ogg", 1, 1};
+		titles[] = {};
+		
+	};
+	class dog_growl
+	{
+		name = "dog_growl";
+		sound[] = {"\sounds\dog_growl.ogg"};
+		titles[] = {};
+		
+	};
+	class dog_ruff
+	{
+		name = "dog_ruff";
+		sound[] = {"\sounds\dog_ruff.ogg"};
+		titles[] = {};
+		
+	};
+	
+	class whistle
+	{
+		name = "whistle";
+		sound[] = {"\sounds\whistle.ogg"};
+		titles[] = {};
+		
+	};
+
+	class dog_close
+	{
+		name = "dog_close";
+		sound[] = {"\sounds\dog_close.ogg"};
+		titles[] = {};
+		
+	};
+	
+	class dog_one
+	{
+		name = "dog_one";
+		sound[] = {"\sounds\dog_one.ogg"};
+		titles[] = {};
+		
 	};
 };
 
@@ -180,51 +227,5 @@ class CfgNotifications
 		description = "%1";
 		duration = 10;
 		priority = 5;
-	};
-	
-	class dog_whine
-	{
-		name = "dog_whine";
-		sound[] = {"sounds\dog_whine.ogg", 1, 1};
-		titles[] = {};
-		
-	};
-	class dog_growl
-	{
-		name = "dog_growl";
-		sound[] = {"sounds\dog_growl.ogg"};
-		titles[] = {};
-		
-	};
-	class dog_ruff
-	{
-		name = "dog_ruff";
-		sound[] = {"sounds\dog_ruff.ogg"};
-		titles[] = {};
-		
-	};
-	
-	class whistle
-	{
-		name = "whistle";
-		sound[] = {"sounds\whistle.ogg"};
-		titles[] = {};
-		
-	};
-
-	class dog_close
-	{
-		name = "dog_close";
-		sound[] = {"sounds\dog_close.ogg"};
-		titles[] = {};
-		
-	};
-	
-	class dog_one
-	{
-		name = "dog_one";
-		sound[] = {"sounds\dog_one.ogg"};
-		titles[] = {};
-		
 	};
 };
