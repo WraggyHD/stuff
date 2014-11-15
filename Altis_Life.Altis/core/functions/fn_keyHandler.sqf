@@ -108,7 +108,7 @@ switch (_code) do
 		};
 	};
 	
-//surrender... shift + g
+	//surrender... shift + g
 	case 34:
 	{
 		if(_shift) then {_handled = true;};
@@ -152,6 +152,15 @@ switch (_code) do
 			};
 		};
 	};
+	
+	case 19:
+	{
+		if (!_alt && !_ctrlKey && playerSide == west) then
+		{
+			[] call life_fnc_radar;
+		};
+	}; 
+	
 	//L Key?
 	case 38: 
 	{
@@ -168,9 +177,8 @@ switch (_code) do
 				};
 			};
 		};
-		
-		if(!_alt && !_ctrlKey) then { [] call life_fnc_radar; };
 	};
+	
 	//Y Player Menu
 	case 21:
 	{
@@ -211,6 +219,7 @@ switch (_code) do
 			};
 		};
 	};
+	
 	//U Key
 	case 22:
 	{
