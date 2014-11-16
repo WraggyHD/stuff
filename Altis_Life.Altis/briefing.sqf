@@ -190,8 +190,9 @@ player createDiarySubject ["controls","Controls"];
 				2. Declaring a rebellion is not a cause to kill anyone, even cops.<br/>
 				3. Cops and civilians/rebels can only commence in a shootout if there are reasons relating to a crime.<br/>
 				4. If you are killed in the crossfire of a fight, it is not RDM.<br/>
-				5. Killing someone in an attempt to protect yourself or others is not RDMing.<br/>
-				6. Shooting a player without giving reasonable time to follow demands is considered RDM.<br/><br/>
+				5. You cannot Kill On Sight in Illegal areas.<br/>
+				6. Killing someone in an attempt to protect yourself or others is not RDMing.<br/>
+				7. Shooting a player without giving reasonable time to follow demands is considered RDM.<br/><br/>
 				
 				These are all judged by admins on a case by case basis.<br/><br/>
 				"
