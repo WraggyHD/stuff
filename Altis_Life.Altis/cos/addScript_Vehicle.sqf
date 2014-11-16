@@ -4,3 +4,4 @@ _veh = Vehicle. Refer to vehicle as _veh.
 */
 
 _veh =(_this select 0);
+_veh lock 2;
